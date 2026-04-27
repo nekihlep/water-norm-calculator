@@ -1,0 +1,14 @@
+{
+  "name": "water-norm-tests",
+  "version": "1.0.0",
+  "scripts": {
+    "test:ui": "npx playwright test",
+    "test:ui:headed": "npx playwright test --headed",
+    "test:ui:debug": "npx playwright test --debug",
+    "test:ui:report": "npx playwright show-report",
+    "test:all": "npm run test:ui && behave features/"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
