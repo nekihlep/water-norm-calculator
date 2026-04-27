@@ -9,6 +9,7 @@
     "test:all": "npm run test:ui && behave features/"
   },
   "devDependencies": {
-    "@playwright/test": "^1.40.0"
+    "@playwright/test": "^1.40.0",
+    "allure-playwright": "^3.0.0"
   }
 }
